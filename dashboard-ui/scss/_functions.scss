@@ -1,0 +1,3 @@
+@function darken($color,$amount){
+    @return mix(black,$color,$amount);
+}

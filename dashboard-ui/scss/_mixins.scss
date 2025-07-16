@@ -1,0 +1,12 @@
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin card-style{
+    background: white;
+    padding: $spacing;
+    border-radius: $radius;
+    box-shadow: 0 2x 8px rgba(0,0,0,0.1);
+}
