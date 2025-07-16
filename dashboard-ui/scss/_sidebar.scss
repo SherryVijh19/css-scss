@@ -1,0 +1,26 @@
+.sidebar{
+    width: 220px;
+    background:$primary-color;
+    color:white;
+    height: 100vh;
+    padding: $spacing;
+
+    nav ul{
+        list-style: none;
+        padding: 0;
+
+        li{
+            margin: $spacing 0;
+
+            a{
+                color: white;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+
+                }
+            }
+        }
+    }
+}

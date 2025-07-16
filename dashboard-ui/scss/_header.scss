@@ -1,0 +1,7 @@
+.header{
+    @include flex-center;
+    justify-content: space-between;
+    padding: $spacing;
+    background-color: white;
+    border-bottom: 1px solid #ccc; 
+}

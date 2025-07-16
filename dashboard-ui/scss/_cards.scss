@@ -1,0 +1,15 @@
+.cards {
+    display: flex;
+    gap: $spacing;
+    padding: $spacing;
+
+    .card {
+        @include card-style;
+        flex: 1;
+
+        &.highlight {
+            border-left: 5px solid $secondary-color;
+
+        }
+    }
+}

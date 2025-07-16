@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'buttons';
+@import 'sidebar';
+@import 'header';
+@import 'cards';
+
+body {
+    background-color: $bg-color;
+    color: $text-color;
+    font-family:$font-family;
+    margin:0;
+    padding:0;
+
+}
